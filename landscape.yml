@@ -3090,6 +3090,7 @@ landscape:
               summary_integration: Kubernetes, Prometheus, OpenTelemetry, Envoy, Istio, Grafana, cert-manager, SPIFFE
               summary_intro_url: ''
               clomonitor_name: cilium
+              tag: security
               audits:
                 - date: '2023-02-13'
                   type: security
@@ -3112,6 +3113,7 @@ landscape:
               annual_review_date: '2022-06-21'
               dev_stats_url: https://cnigenie.devstats.cncf.io/
               clomonitor_name: cni-genie
+              tag: security
           - item:
             name: Container Network Interface (CNI)
             homepage_url: https://www.cni.dev/
@@ -3129,6 +3131,7 @@ landscape:
               slack_url: https://containernetworking.slack.com
               specification: true
               clomonitor_name: cni
+              tag: security
           - item:
             name: Cumulus
             homepage_url: https://www.nvidia.com/en-us/networking/ethernet-switching
@@ -3246,6 +3249,7 @@ landscape:
               mailing_list_url: https://groups.google.com/forum/#!forum/networkservicemesh
               slack_url: https://cloud-native.slack.com/messages/CHQNNUPN1/details/
               clomonitor_name: network-service-mesh
+              tag: security
           - item:
             name: Nuage Networks
             homepage_url: https://www.nuagenetworks.net/
@@ -3994,6 +3998,7 @@ landscape:
               slack_url: https://cloud-native.slack.com/messages/coredns/
               youtube_url: https://www.youtube.com/channel/UCbWRJZxiaQ8twm6sh7UymoQ
               clomonitor_name: core-dns
+              tag: security
               audits:
                 - date: '2018-02-03'
                   type: security
@@ -4177,6 +4182,7 @@ landscape:
               youtube_url: https://www.youtube.com/channel/UCrnk1HWelWnYtF78YZX80fg
               gitter_url: https://gitter.im/grpc/grpc
               clomonitor_name: grpc
+              tag: security
               audits:
                 - date: '2019-10-29'
                   type: security
@@ -4256,6 +4262,7 @@ landscape:
               dev_stats_url: https://bfe.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#bfe-logos
               clomonitor_name: bfe
+              tag: security
           - item:
             name: Caddy
             description: Caddy is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go
@@ -4286,6 +4293,7 @@ landscape:
               dev_stats_url: https://contour.devstats.cncf.io/
               slack_url: https://kubernetes.slack.com/messages/contour
               clomonitor_name: contour
+              tag: security
               audits:
                 - date: '2021-12-01'
                   type: security
@@ -4310,6 +4318,7 @@ landscape:
               stack_overflow_url: https://stackoverflow.com/questions/tagged/envoyproxy
               slack_url: https://envoyproxy.slack.com/
               clomonitor_name: envoy
+              tag: security
               audits:
                 - date: '2018-02-27'
                   type: security
@@ -4353,6 +4362,7 @@ landscape:
               chat_channel: '#metallb'
               dev_stats_url: https://metallb.devstats.cncf.io/
               clomonitor_name: metallb
+              tag: security
           - item:
             name: MOSN
             homepage_url: https://mosn.io
@@ -4532,6 +4542,7 @@ landscape:
               summary_integration: Telepresence, Linkerd, Istio, Argo Rollouts, Envoy, gRPC, OpenTelemetry, Curiefense
               summary_intro_url: ''
               clomonitor_name: emissary-ingress
+              tag: security
           - item:
             name: EnRoute OneStep Ingress
             homepage_url: https://www.getenroute.io
@@ -4761,6 +4772,7 @@ landscape:
                 scratch or migrating existing applications to cloud native, Istio can help. Read more at: https://istio.io/latest/about/solutions/
               youtube_url: https://www.youtube.com/c/Istio
               clomonitor_name: istio
+              tag: security
               audits:
                 - date: '2023-01-30'
                   type: security
@@ -4807,6 +4819,7 @@ landscape:
                 Kuma is a service mesh that combines the extensibility and performance of Envoy proxy with great UX and a powerful, yet flexible set of
                 policies. It was built from the ground up to support Kubernetes, Docker, and VM environments seamlessly in a single deployment.
               clomonitor_name: kuma
+              tag: security
           - item:
             name: Linkerd
             description: Ultra light, ultra simple, ultra powerful. Linkerd adds security, observability, and reliability to Kubernetes, without the complexity.
@@ -4838,6 +4851,7 @@ landscape:
               summary_intro_url: ''
               summary_languages: Go, Rust
               clomonitor_name: linkerd
+              tag: security
               audits:
                 - date: '2019-06-01'
                   type: security
@@ -5897,6 +5911,7 @@ landscape:
               summary_integrations: Docker, Kubernetes, K3S, WASMCloud, CloudEvents, Helm, Argo, DAPR, Prometheus, Benthos
               summary_intro_url: https://rethink.synadia.com/episodes/1/
               clomonitor_name: nats
+              tag: security
               audits:
                 - date: '2019-02-06'
                   type: security
